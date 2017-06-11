@@ -270,16 +270,22 @@ nav a:visited {
     margin-top: 5px;
 }
 
-.social {
-    display: inline-block;   
-    vertical-align: middle; 
-    text-align: center;
-    margin: 2px;
+
+
+.fa-twitter-square,
+.fa-linkedin-square {
+    color: black;
+    font-size: 32px;
+    display: inline-block;
+    padding: 0 8px;
 }
 
-.social a:hover {
-    cursor: pointer;
-    background-color:white;
+.fa-twitter-square:hover {
+    color: #4099FF;
+}
+
+.fa-linkedin-square:hover {
+    color: #0077b5;
 }
 
 /* media queries */
