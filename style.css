@@ -181,6 +181,11 @@ nav a:visited {
 /*Blog content styles*/
 
 
+
+.blog-content h3 {
+    text-align: left;
+}
+
 .blog-content p {
     text-align: left;
 }
@@ -198,7 +203,7 @@ nav a:visited {
     text-align: left;
 }
 
-.read-more {
+.read-more p {
     text-align: center;
     padding: 20px;
 }
