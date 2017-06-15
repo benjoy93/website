@@ -69,6 +69,13 @@ nav a:visited {
     text-align: center;
 }
 
+.page-title h2 {
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
 
 .profile-pic {
     max-width:100%;
