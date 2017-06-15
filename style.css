@@ -304,6 +304,13 @@ nav a:visited {
 .not-found-top {
 padding-top: 0;
 } 
+
+.page-title h2 {
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
 }
 
 .top {
