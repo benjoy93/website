@@ -2,6 +2,10 @@
 
 /* GENERAL LAYOUT STYLES */
 
+* {
+    box-sizing: border-box;
+}
+
 html {
     position: relative;
     min-height: 100%;
@@ -64,76 +68,59 @@ nav a:visited {
     text-align: center;
 }
 
-
-
-
 .profile-pic {
     max-width:100%;
     border-radius: 50%;
 }
 
 
-.homepage-hr {
-    width:75% ;
-    margin-left: 12.25%;
-    margin-right: 12.25%;
+.title-hr {
+    width: 75%;
+    margin: 0 auto;
     text-align: center;
 }
 
+/*LAYOUT STYLES*/
 
+.wrapper {
+    max-width: 90%;
+    margin: 0 auto;
+}
 
-
-
-/*.blog-left {
-    margin-right: 10px;
-    }
-
-.blog-right {
-    margin-right: 10px;
-}*/
-
-
-
-
-/*Blog section styles*/
-
-.blog-list-section {
-   /* background-color: white;*/
-    width: 50%;
-    height: 100%;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
+h1,
+h2 {
     text-align: center;
 }
 
-.blog-list-content {
-    text-align: left;
-    margin-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.photo {
+    text-align: center;
+}
+
+.homepage-blogs {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.homepage-blogs li {
+    text-align: center;
+    padding: 1em 0;
+    font-size: 1.25em;
 }
 
 
-.blog-list-section a {
+
+/*Link Styles */
+
+.homepage-blogs li a {
+    color: white;
     text-decoration: none;
-    color: #333; 
-    transition: 0.4s color ease;
 }
 
-.blog-list-section a:hover {
-    color: rgba(255, 255, 255, 0.9);
+.homepage-blogs li a:hover {
+    font-size: 1.2501em;
 }
 
 
-.blog-list-section h3, p {
-        margin-left: 10px;
-}
-
-/*.blog-date {
-     color: rgba(0, 0, 0, 0.5)
-}*/
 
 .blog-excerpt {
     font-style: italic;
@@ -146,28 +133,6 @@ nav a:visited {
 
 /*Blog content styles*/
 
-
-
-.blog-content h3 {
-    text-align: left;
-}
-
-.blog-content p {
-    text-align: left;
-}
-
-.blog-content a {
-    color:rgba(255, 255, 255, 0.9);
-}
-
-
-.blog-content a:hover {
-    text-decoration: underline;
-}
-
-.blog-content li {
-    text-align: left;
-}
 
 .read-more p {
     text-align: center;
@@ -188,32 +153,6 @@ nav a:visited {
 
 .title-hr {
     width: 50%;
-}
-
-.side-project-section {
-    /*width: 80%;*/
-    height: 100%;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom:30px;
-    text-align: center;
-}
-
-.side-project-section a {
-    text-decoration: none;
-    color: #333; 
-    transition: 0.4s color ease;
-}
-
-.side-project-section a:hover {
-    color: rgba(255, 255, 255, 0.9);
-}
-
-.example-project {
-    display: inline-block;
-    padding: 10px;
-    
 }
 
 .project-img {
@@ -242,10 +181,10 @@ nav a:visited {
 }
 
 
-/*.social-section {
+.social-section {
     text-align: center;
     margin-top: 15px;
-}*/
+}
 
 
 .fa-twitter-square,
