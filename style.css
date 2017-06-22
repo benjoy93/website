@@ -112,12 +112,21 @@ h2 {
 /*Link Styles */
 
 .homepage-blogs li a {
-    color: white;
+    color: rgba(255, 255, 255, 0.9);
     text-decoration: none;
 }
 
 .homepage-blogs li a:hover {
-    font-size: 1.2501em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.blog-list a {
+    color: #333;
+    text-decoration: none;
+}
+
+.blog-list a:hover {
+    color: rgba(255, 255, 255, 0.7);
 }
 
 
