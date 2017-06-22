@@ -120,16 +120,34 @@ h2 {
     color: rgba(255, 255, 255, 0.7);
 }
 
-.blog-list a {
+.blog-list a,
+.side-project a  {
     color: #333;
     text-decoration: none;
 }
 
-.blog-list a:hover {
+.blog-list a:hover,
+.side-project a:hover {
     color: rgba(255, 255, 255, 0.7);
 }
 
+.side-project a {
+    text-align: center;
+}
 
+
+/*Side project Styles*/
+
+.side-project-split {
+    width: 40%;
+    margin: 1.5em auto;
+    border-style: dotted;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.side-project img {
+    margin: 0 auto;
+}
 
 .blog-excerpt {
     font-style: italic;
