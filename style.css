@@ -111,7 +111,8 @@ h2 {
 
 /*Link Styles */
 
-.homepage-blogs li a {
+.homepage-blogs li a,
+.blog-post a {
     color: rgba(255, 255, 255, 0.9);
     text-decoration: none;
 }
@@ -127,6 +128,7 @@ h2 {
 }
 
 .blog-list a:hover,
+.blog-post a:hover,
 .side-project a:hover {
     color: rgba(255, 255, 255, 0.7);
 }
@@ -134,6 +136,8 @@ h2 {
 .side-project a {
     text-align: center;
 }
+
+
 
 
 /*Side project Styles*/
@@ -161,11 +165,13 @@ h2 {
 /*Blog content styles*/
 
 
+.date {
+    text-align: center;
+}
+
 .read-more p {
     text-align: center;
     padding: 20px;
-}
-
 }
 
 
