@@ -82,8 +82,9 @@ nav a:visited {
 
 /*LAYOUT STYLES*/
 
-.wrapper {
-    max-width: 90%;
+.wrapper,
+.side-project-wrapper {
+    width: 90%;
     margin: 0 auto;
 }
 
