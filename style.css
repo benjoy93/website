@@ -227,4 +227,50 @@ h2 {
 }
 
 
+/*Media Queries*/
+
+@media screen and (min-width: 700px) {
+    .top-header {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .nav ul {
+        text-align: center;
+    }
+
+    .wrapper {
+        width: 70%;
+        max-width: 1000px;
+    }
+
+    .side-project-wrapper {
+        width: 70%;
+    }
+
+    .side-project-wrapper hr {
+        width: 70%;
+        max-width: 1000px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .side-project-wrapper {
+        width: 95%;
+        text-align: center;
+    }
+
+    .side-project-wrapper hr {
+        width: 70%;
+    }
+
+    .side-project {
+        display: inline-block;
+        padding: 0 2em;
+    }
+
+    .side-project-split {
+        display: none;
+    }
+}
 
