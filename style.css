@@ -64,7 +64,7 @@ nav a:visited {
 .top-header {
     left: 0;
     min-height: 100%;
-    min-width: 100%;
+    width: 100%;
     text-align: center;
 }
 
