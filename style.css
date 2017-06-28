@@ -89,7 +89,8 @@ nav a:visited {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     text-align: center;
 }
 
@@ -108,12 +109,17 @@ h2 {
     font-size: 1.25em;
 }
 
+.top-margin {
+    margin-top: 10%;
+}
+
 
 
 /*Link Styles */
 
 .homepage-blogs li a,
-.blog-post a {
+.blog-post a,
+.not-found a {
     color: rgba(255, 255, 255, 0.9);
     text-decoration: none;
 }
@@ -130,7 +136,8 @@ h2 {
 
 .blog-list a:hover,
 .blog-post a:hover,
-.side-project a:hover {
+.side-project a:hover,
+.not-found a:hover {
     color: rgba(255, 255, 255, 0.7);
 }
 
