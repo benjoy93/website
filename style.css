@@ -146,8 +146,6 @@ h3 {
 }
 
 
-
-
 /*Side project Styles*/
 
 .side-project-split {
@@ -161,17 +159,15 @@ h3 {
     margin: 0 auto;
 }
 
+/*Blog styles*/
+
 .blog-excerpt {
     font-style: italic;
 }
 
-.hr {
-    color:black;
+.blog-list h3 {
+    text-align: left;
 }
-
-
-/*Blog content styles*/
-
 
 .date {
     text-align: center;
